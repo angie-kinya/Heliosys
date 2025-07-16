@@ -1,0 +1,113 @@
+text,label,severity,age,gender
+"I feel so hopeless and empty inside. Nothing seems to matter anymore.",depression,severe,28,female
+"Had a great day at work today! Feeling accomplished and energetic.",normal,none,32,male
+"I can't stop crying and I don't even know why. Everything feels pointless.",depression,moderate,24,female
+"Excited about the weekend plans with friends. Life is good!",normal,none,29,male
+"I'm so tired all the time. Even simple tasks feel overwhelming.",depression,mild,35,female
+"Just finished a challenging project. Feeling proud and motivated.",normal,none,26,male
+"I hate myself and wish I could just disappear forever.",depression,severe,19,female
+"Beautiful sunrise this morning. Grateful for another day.",normal,none,41,male
+"Nobody understands me. I'm completely alone in this world.",depression,moderate,22,female
+"Looking forward to vacation next month. Can't wait to relax.",normal,none,30,male
+"I'm worthless and everyone would be better off without me.",depression,severe,31,female
+"Celebrated my promotion today. Hard work really pays off!",normal,none,27,male
+"Can't sleep again. My mind won't stop racing with negative thoughts.",depression,moderate,25,female
+"Had coffee with an old friend. Great conversation and lots of laughs.",normal,none,33,male
+"I'm trapped in this darkness and can't find a way out.",depression,severe,20,female
+"Feeling blessed to have such supportive family and friends.",normal,none,38,male
+"Every day is a struggle. I don't know how much longer I can do this.",depression,moderate,26,female
+"Started a new hobby today. Excited to learn and grow.",normal,none,24,male
+"I'm a failure at everything I try. Nothing ever goes right.",depression,mild,29,female
+"Proud of my team's achievement. Great collaboration and results.",normal,none,34,male
+"Death seems like the only escape from this endless pain.",depression,severe,21,female
+"Enjoying this peaceful evening. Life has its beautiful moments.",normal,none,36,male
+"I'm exhausted but can't rest. My body and mind are giving up.",depression,moderate,27,female
+"Accomplished my fitness goals this month. Feeling strong and healthy.",normal,none,28,male
+"I'm broken beyond repair. There's no hope for someone like me.",depression,severe,23,female
+"Grateful for the opportunities coming my way. Feeling optimistic.",normal,none,31,male
+"Crying myself to sleep has become my nightly routine.",depression,moderate,24,female
+"Love my new job! Challenging but rewarding work environment.",normal,none,25,male
+"I'm drowning in sadness and can't find the surface.",depression,severe,30,female
+"Perfect weather for a hike. Nature always lifts my spirits.",normal,none,29,male
+"Medication isn't helping. I feel numb and disconnected from everything.",depression,moderate,32,female
+"Celebrated my anniversary today. So lucky to have found love.",normal,none,35,male
+"I'm invisible to everyone. My existence doesn't matter.",depression,mild,22,female
+"Volunteered at the shelter today. Helping others feels amazing.",normal,none,27,male
+"Self-harm seems like the only way to feel something real.",depression,severe,18,female
+"Beautiful concert last night. Music truly feeds the soul.",normal,none,33,male
+"I'm stuck in this cycle of despair with no way out.",depression,moderate,28,female
+"Finished reading a great book. Stories can be so inspiring.",normal,none,26,male
+"Everyone abandons me eventually. I'm destined to be alone.",depression,mild,25,female
+"Had a wonderful dinner with family. Cherishing these moments.",normal,none,37,male
+"I wish I could just sleep forever and never wake up.",depression,severe,24,female
+"Starting a new chapter in life. Excited for what's ahead.",normal,none,30,male
+"My anxiety is through the roof. I can't stop worrying about everything.",depression,moderate,26,female
+"Meditation has been helping me find inner peace lately.",normal,none,32,male
+"I'm suffocating under the weight of my own thoughts.",depression,severe,21,female
+"Bought a new car today. Hard work paying off nicely.",normal,none,28,male
+"Therapy isn't working. I'm getting worse, not better.",depression,mild,29,female
+"Learning a new language has been such a fun challenge.",normal,none,31,male
+"I'm poison to everyone around me. They deserve better.",depression,moderate,23,female
+"Cooking dinner for friends tonight. Love bringing people together.",normal,none,34,male
+"Crisis hotline couldn't even help me. I'm beyond saving.",depression,severe,19,female
+"Received great news about my application. Dreams do come true!",normal,none,27,male
+"I'm tired of pretending everything is fine when it's not.",depression,mild,33,female
+"Garden is blooming beautifully this spring. Nature is incredible.",normal,none,39,male
+"Hospital visit was scary. Mental health is so stigmatized.",depression,moderate,25,female
+"Art class was therapeutic today. Creativity heals the soul.",normal,none,26,male
+"I'm losing the battle against my own mind.",depression,severe,22,female
+"Proud of my daughter's graduation. She's accomplished so much.",normal,none,45,male
+"Antidepressants make me feel like a zombie. Is this living?",depression,moderate,31,female
+"Morning jog felt amazing. Endorphins are the best medicine.",normal,none,29,male
+"I'm disappearing piece by piece. Soon there'll be nothing left.",depression,severe,20,female
+"Reconnected with old friends. Some bonds never break.",normal,none,35,male
+"Counseling session was rough. Confronting trauma is hard.",depression,mild,27,female
+"Surprise party was incredible. Feeling so loved and appreciated.",normal,none,24,male
+"I'm a burden to my family. They'd be happier without me.",depression,moderate,28,female
+"Weekend getaway was exactly what I needed. Feeling refreshed.",normal,none,32,male
+"Psychiatrist increased my dosage again. Nothing seems to work.",depression,severe,26,female
+"New promotion came through! All those late nights were worth it.",normal,none,30,male
+"I'm trapped in my own personal hell with no escape.",depression,severe,24,female
+"Volunteering at the hospital reminded me how precious life is.",normal,none,38,male
+"Cutting helps me feel something other than this emptiness.",depression,severe,17,female
+"Family barbecue was perfect. Love spending time with everyone.",normal,none,33,male
+"I'm suffocating in this darkness. Light feels so far away.",depression,moderate,29,female
+"Concert tickets arrived! Can't wait to see my favorite band.",normal,none,25,male
+"Emergency room visit was a wake-up call. I need help.",depression,severe,23,female
+"Adopted a rescue dog today. Already bringing so much joy.",normal,none,31,male
+"I'm drowning in my own tears. This pain is unbearable.",depression,moderate,22,female
+"Finished my degree finally! Hard work and persistence paid off.",normal,none,27,male
+"Intervention from friends opened my eyes. Time to get serious help.",depression,mild,34,female
+"Beach vacation was amazing. Sun and waves heal everything.",normal,none,29,male
+"I'm disappearing from everyone's life. They don't even notice.",depression,severe,21,female
+"Cooking class was so much fun. Learning new skills feels great.",normal,none,26,male
+"Doctor says I need intensive therapy. I'm scared but hopeful.",depression,moderate,30,female
+"New relationship is going well. Finally found someone special.",normal,none,28,male
+"I'm losing myself in this endless spiral of despair.",depression,severe,25,female
+"Hiking trip was incredible. Nature always puts things in perspective.",normal,none,35,male
+"Nothing brings me joy anymore. Everything feels meaningless.",depression,moderate,23,female
+"Promotion celebration with colleagues. Great team to work with.",normal,none,32,male
+"I'm empty inside. Just going through the motions of living.",depression,mild,27,female
+"Grandchildren visited today. Their laughter is pure magic.",normal,none,58,male
+"Sleeping pills aren't working. I'm exhausted but can't rest.",depression,moderate,26,female
+"Book club discussion was fascinating. Love intellectual conversations.",normal,none,34,male
+"I'm broken and nobody can fix me. This is my reality.",depression,severe,19,female
+"Dinner date was wonderful. Feeling grateful for good company.",normal,none,30,male
+"Therapist says I'm making progress. Hard to believe right now.",depression,mild,28,female
+"Marathon training is tough but rewarding. Pushing my limits.",normal,none,31,male
+"I'm isolated from the world. Nobody understands my pain.",depression,moderate,24,female
+"Music festival was incredible. Amazing artists and great vibes.",normal,none,27,male
+"Hospital stay was necessary. Finally getting the help I need.",depression,severe,22,female
+"New job starts Monday. Excited for this career opportunity.",normal,none,29,male
+"I'm fading away slowly. Each day I lose more of myself.",depression,moderate,25,female
+"Wedding planning is stressful but exciting. Can't wait to marry him.",normal,none,26,female
+"Crisis intervention team was helpful. Glad I reached out.",depression,mild,33,female
+"Retirement party was emotional. End of an era but new beginnings.",normal,none,62,male
+"I'm suffocating under the weight of my depression.",depression,severe,20,female
+"Spontaneous road trip was amazing. Sometimes you need adventure.",normal,none,28,male
+"Medication side effects are terrible. Quality of life is suffering.",depression,moderate,31,female
+"Charity event was successful. Helping others feels incredibly rewarding.",normal,none,36,male
+"I'm drowning in guilt and shame. Can't forgive myself.",depression,mild,29,female
+"Art gallery opening was inspiring. Creativity in all its forms.",normal,none,33,male
+"I'm losing hope that things will ever get better.",depression,severe,21,female
+"Cooking for family brings me such joy. Food is love.",normal,none,37,female
