@@ -1,0 +1,13 @@
+{
+    "r.rpath.windows": "C:\\Program Files\\R\\R-4.3.0\\bin\\R.exe",
+    "r.rpath.mac": "/usr/local/bin/R",
+    "r.rpath.linux": "/usr/bin/R",
+    "r.rterm.windows": "C:\\Program Files\\R\\R-4.3.0\\bin\\x64\\Rterm.exe",
+    "r.rterm.mac": "/usr/local/bin/R",
+    "r.rterm.linux": "/usr/bin/R",
+    "r.bracketedPaste": true,
+    "r.sessionWatcher": true,
+    "r.rtermSendDelay": 8,
+    "r.alwaysUseActiveTerminal": true,
+    "r.plot.useHttpgd": true
+  }
