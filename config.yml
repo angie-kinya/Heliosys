@@ -1,0 +1,30 @@
+default:
+  database:
+    name: "heliosys.db"
+    type: "sqlite"
+  
+  models:
+    depression_threshold: 0.5
+    sentiment_threshold: -0.3
+    retrain_interval: 30 # days
+  
+  app:
+    name: "Heliosys"
+    version: "1.0.0"
+    debug: true
+    
+  security:
+    session_timeout: 3600 # seconds
+    max_sessions: 100
+    
+production:
+  database:
+    name: "heliosys_prod.db"
+    type: "sqlite"
+  
+  app:
+    debug: false
+    
+  security:
+    session_timeout: 1800
+    max_sessions: 1000
