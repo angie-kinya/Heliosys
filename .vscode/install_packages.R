@@ -1,3 +1,14 @@
+# Define user library path
+user_lib <- Sys.getenv("R_LIBS_USER", unset = "~/R/library")
+
+# Set CRAN mirror
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+# Create user library directory if it doesn't exist
+if (!dir.exists(user_lib)) {
+  dir.create(user_lib, recursive = TRUE, showWarnings = FALSE)
+}
+
 # Core packages
 core_packages <- c(
   "devtools",
@@ -6,7 +17,7 @@ core_packages <- c(
 )
 
 # Install core packages first
-install.packages(core_packages, dependencies = TRUE)
+install.packages(core_packages, dependencies = TRUE, lib = user_lib)
 
 main_packages <- c(
   # Shiny and UI
@@ -58,4 +69,4 @@ main_packages <- c(
 )
 
 # Install main packages
-install.packages(main_packages, dependencies = TRUE)
+install.packages(main_packages, dependencies = TRUE, lib = user_lib)
