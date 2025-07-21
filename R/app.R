@@ -6,23 +6,22 @@ library(plotly)
 library(dplyr)
 library(tidytext)
 library(stringr)
-library(lubricate)
+library(lubridate)  # Fixed typo
 
-# Source modules
-source("modules/chat_module.R")
-source("modules/nlp_module.R")
-source("modules/depression_detector.R")
-source("modules/dashboard_module.R")
-source("utils/database.R")
-source("utils/preprocessing.R")
+# Source modules (with error handling)
+tryCatch(source("modules/chat_module.R"), error = function(e) cat("Warning: chat_module.R not found\n"))
+tryCatch(source("modules/nlp_module.R"), error = function(e) cat("Warning: nlp_module.R not found\n"))
+tryCatch(source("modules/depression_detector.R"), error = function(e) cat("Warning: depression_detector.R not found\n"))
+tryCatch(source("modules/dashboard_module.R"), error = function(e) cat("Warning: dashboard_module.R not found\n"))
+tryCatch(source("utils/database.R"), error = function(e) cat("Warning: database.R not found\n"))
+tryCatch(source("utils/preprocessing.R"), error = function(e) cat("Warning: preprocessing.R not found\n"))
 
-# Initialize database
-init_database()
+# Initialize database (with error handling)
+tryCatch(init_database(), error = function(e) cat("Warning: Could not initialize database\n"))
 
-# UI
+# Minimal UI for testing
 ui <- dashboardPage(
     dashboardHeader(title = "Heliosys: Mental Health Assistant"),
-
     dashboardSidebar(
         sidebarMenu(
             menuItem("Chat", tabName = "chat", icon = icon("comments")),
@@ -30,34 +29,20 @@ ui <- dashboardPage(
             menuItem("Risk Assessment", tabName = "risk_assessment", icon = icon("exclamation-triangle"))
         )
     ),
-
     dashboardBody(
-        tags$head(
-        tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
-        tags$script(src = "custom.js")
-        ),
-        
-        tabItems(
-        tabItem(tabName = "chat", chat_ui("chat")),
-        tabItem(tabName = "analytics", analytics_ui("analytics")),
-        tabItem(tabName = "risk", risk_ui("risk"))
-        )
+        h1("Heliosys is loading..."),
+        p("If you see this message, the basic app structure is working.")
     )
 )
 
-# Server
+# Minimal server for testing
 server <- function(input, output, session) {
-    # reactive values
+    # Basic reactive values
     values <- reactiveValues(
         messages = data.frame(),
         user_profile = list(),
         session_data = list()
     )
-
-    # call modules
-    callModule(chat_server, "chat", values)
-    callModule(analytics_server, "analytics", values)
-    callModule(risk_server, "risk", values)
 }
 
 # Run the application
