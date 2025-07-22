@@ -6,7 +6,7 @@ library(plotly)
 library(dplyr)
 library(tidytext)
 library(stringr)
-library(lubridate)  # Fixed typo
+library(lubridate)  
 
 # Source modules (with error handling)
 tryCatch(source("modules/chat_module.R"), error = function(e) cat("Warning: chat_module.R not found\n"))
@@ -30,8 +30,17 @@ ui <- dashboardPage(
         )
     ),
     dashboardBody(
-        h1("Heliosys is loading..."),
-        p("If you see this message, the basic app structure is working.")
+        tabItems(
+            tabItem(tabName = "chat",
+                chat_ui("chat1")
+            ),
+            tabItem(tabName = "analytics",
+                h2("Analytics module coming soon...")
+            ),
+            tabItem(tabName = "risk_assessment",
+                h2("Risk assessment module coming soon...")
+            )
+        )
     )
 )
 
@@ -43,6 +52,8 @@ server <- function(input, output, session) {
         user_profile = list(),
         session_data = list()
     )
+    
+    callModule(chat_server, "chat1", values = values)
 }
 
 # Run the application
